@@ -1,0 +1,32 @@
+.ulList {
+  margin: 30px;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  list-style-type: none;
+  border-radius: 20px;
+  li {
+    border-radius: 10;
+    transition: 0.5s;
+    &:hover{
+
+        transform: scale(1.1,1.1);
+    }
+    a {
+        transition: 0.5s;
+        color: black;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 20px;
+      &:hover {
+        color: #bf4080 !important;
+      }
+    }
+  }
+  button {
+    color: white;
+    background-color: #bf4080;
+  }
+}
